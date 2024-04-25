@@ -1,0 +1,74 @@
+/* loginSignup.css */
+
+.login-container,
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.login-container h2,
+.signup-container h2 {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.signup-link,
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signup-link span,
+.login-link span {
+    margin-right: 5px;
+}
+
+.signup-link button,
+.login-link button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-link button:hover,
+.login-link button:hover {
+    background-color: #45a049;
+}
+
+.login-btn,
+.signup-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+    background-color: #0056b3;
+}
